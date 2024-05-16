@@ -1,0 +1,100 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .title{
+    flex-direction: column;
+    line-height: 30px;
+}
+
+header .title h1{
+    font-weight: 200;
+}
+
+header ul a {
+    color: #ffffff;
+}
+
+header ul a:hover{
+    color: #7b19a8;
+    transition: 300ms all;
+}
+
+header ul a:last-child {
+    border: 2px solid #7b19a8;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+header ul a:last-child:hover {
+    background-color: #7b19a8;
+    color: #ffffff;
+}
+
+header ul a li{
+    display: inline-block;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+main aside h2{
+    font-size: 56px;
+    line-height: 50px;
+}
+
+main aside h2 span{
+    color: #7b19a8;
+}
+
+main aside p{
+    line-height: 20px;
+    max-width: 500px;
+    font-weight: 200;
+}
+
+main aside form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+main aside form input{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+main aside form input:last-child{
+    height: 50px;
+    width: 50%;
+    background-color: #7b19a8;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main aside form input:last-child:hover{
+    cursor: pointer;
+}
+
+
+main article img{
+    width: 700px;
+}
